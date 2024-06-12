@@ -9,6 +9,18 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Hacer que la imagen sea redonda */
+    display: block;
+    margin-bottom: 10px; /* Agregar espacio entre la imagen y el título */
 }
 
 nav ul {
